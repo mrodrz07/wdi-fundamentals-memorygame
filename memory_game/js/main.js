@@ -45,8 +45,8 @@ function checkForMatch() {
 }
 
 function flipCard(cardID) {
-	console.log('User flipped' + ' ' + cards[cardID].rank);
-	cardsInPlay.push(cards[cardID]).rank;
+	console.log('User flipped' + ' ' + cards[cardId].rank);
+	cardsInPlay.push(cards[cardId]).rank;
 	console.log(cardImage);
 	console.log(suit);
 };
@@ -78,3 +78,10 @@ if(cardsInPlay.length === 2) {
 	alert('Sorry, try again.');
 }
 
+function createBoard() {
+	for (var i = 0; i < cards.length; i++) {
+
+	}
+}
+
+var newListItem = document.createElement('img');
